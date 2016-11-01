@@ -174,12 +174,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Entidades\Context.cs" />
     <Compile Include="Models\Entidades\Curso.cs" />
     <Compile Include="Models\Entidades\Evento.cs" />
     <Compile Include="Models\Entidades\Formacao.cs" />
     <Compile Include="Models\Entidades\InscricaoCurso.cs" />
     <Compile Include="Models\Entidades\InscricaoOficina.cs" />
     <Compile Include="Models\Entidades\InscricaoPalestra.cs" />
+    <Compile Include="Models\Entidades\IUnitOfWork.cs" />
     <Compile Include="Models\Entidades\Oficina.cs" />
     <Compile Include="Models\Entidades\Palestra.cs" />
     <Compile Include="Models\Entidades\Ministrante.cs" />
@@ -187,6 +189,15 @@
     <Compile Include="Models\Entidades\Patrocinadores.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Metadado\MinistranteMetadado.cs" />
+    <Compile Include="Models\Repositorio\Interface\IMinistranteRepository.cs" />
+    <Compile Include="Models\Repositorio\MinistranteRepository.cs" />
+    <Compile Include="Models\Repositorio\Repository.cs" />
+    <Compile Include="Models\Repositorio\Interface\IRepository.cs" />
+    <Compile Include="Models\Servico\Interface\IMinistranteService.cs" />
+    <Compile Include="Models\Servico\Interface\IService.cs" />
+    <Compile Include="Models\Servico\MinistranteService.cs" />
+    <Compile Include="Models\Servico\Service.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
